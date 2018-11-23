@@ -1,5 +1,5 @@
 from flask import Flask, render_template, flash, redirect
-from app.config import Config
+from config import Config
 from app.forms import LoginForm
 
 app = Flask(__name__)
